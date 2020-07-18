@@ -46,11 +46,11 @@ You have to set up root password and schema name in propert file.
 3. Run your application as a spring boot app.
 
       - For Testing API 
-      http://localhost:8080/all --- for getting all data.
-      
-      http://localhost:8080/review/:id  --- There should be reviewee id.
-      
-      http://localhost:8080/review-post  --- for posting review.
+            http://localhost:8080/all --- for getting all data.
+
+            http://localhost:8080/review/:id  --- There should be reviewee id.
+
+            http://localhost:8080/review-post  --- for posting review.
               the formate will ----->
               {
                   "id":1,
