@@ -48,29 +48,29 @@ You have to set up root password and schema name in propert file.
       - For Testing API 
             http://localhost:8080/all --- for getting all data.
 
-      http://localhost:8080/review/:id  --- There should be reviewee id.
+            http://localhost:8080/review/:id  --- There should be reviewee id.
 
-      http://localhost:8080/review-post  --- for posting review.
-              the formate will ----->
-              {
-                  "id":1,
-                  "rating":4,
-                  "reviewer":{
-                     "id":3,
-                     "name":"aadil",
-                     "role":{
-                        "id":2,
-                        "name":"Passanger"
-                     }
-                  },
-                  "reviewee":{
-                     "id":1,
-                     "name":"sunil",
-                     "role":{
+            http://localhost:8080/review-post  --- for posting review.
+                    the formate will ----->
+                    {
                         "id":1,
-                        "name":"Driver"
-                     }
-                  }
-                }
-               
+                        "rating":4,
+                        "reviewer":{
+                           "id":3,
+                           "name":"aadil",
+                           "role":{
+                              "id":2,
+                              "name":"Passanger"
+                           }
+                        },
+                        "reviewee":{
+                           "id":1,
+                           "name":"sunil",
+                           "role":{
+                              "id":1,
+                              "name":"Driver"
+                           }
+                        }
+                      }
+
 
